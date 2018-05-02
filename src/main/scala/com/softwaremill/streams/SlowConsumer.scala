@@ -39,4 +39,5 @@ object ScalazSlowConsumer extends App {
     }))
 
   (enqueueProcess merge dequeueProcess).run.run
+  println("I'm slow")
 }
